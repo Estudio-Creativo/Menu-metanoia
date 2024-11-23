@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fondo cálido */
+    color: #000;
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu {
+    background-color: #f5deb3;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #7d4cdb;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+    border-bottom: 1px dashed #7d4cdb;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #795548;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  line-height:1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+h3 {
+  font-size:15px;
+  padding:0;
+  margin:0;
+  font-weight:100;
+  font-family:Big Caslon;
+  color:#795548;
+  
+}
+p {
+    line-height: 5.1 /* Incrementa el espacio entre líneas */
+}
+
+h4 {
+  font-family:Arial;
+  font-size:13px;
+  color:#;
+}
